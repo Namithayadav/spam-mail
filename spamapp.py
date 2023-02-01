@@ -9,7 +9,7 @@ import pickle
 import database as db
 
 
-model = pickle.load(open('C:/Users/hp/Downloads/nlp/model11.sav','rb'))
+model = pickle.load(open('model11.sav','rb'))
 
 st.title("Spam Mail Classifier ")
 

@@ -25,3 +25,5 @@ if st.button('Predict'):
         else:
             st.success("This is Not a Spam message")
             #db.insert_data(t,"Not a Spam message")
+link='For dataset check out [link](https://drive.google.com/file/d/158mbAxBuoWcz3q9ol3mi-SC2yWu0vzi6/view)'
+st.markdown(link,unsafe_allow_html=True)

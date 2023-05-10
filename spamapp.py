@@ -21,9 +21,9 @@ if st.button('Predict'):
         result = model.predict(input_msg)
         if result[0] == 'spam' or 'spam' in input_msg:
             st.success("This is a Spam message :loudspeaker:")
-            #db.insert_data(t,"Spam message")
+            db.insert_data(t,"Spam message")
         else:
             st.success("This is Not a Spam message")
-            #db.insert_data(t,"Not a Spam message")
+            db.insert_data(t,"Not a Spam message")
 link='For dataset check out [link](https://drive.google.com/file/d/158mbAxBuoWcz3q9ol3mi-SC2yWu0vzi6/view)'
 st.markdown(link,unsafe_allow_html=True)

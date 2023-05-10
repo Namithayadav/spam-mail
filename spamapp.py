@@ -2,13 +2,13 @@
 """
 Created on Wed Feb  1 00:11:04 2023
 
-@author: namitha
+@author: 
 """
 import streamlit as st
 import pickle
 import database as db
 
-model = pickle.load(open('model11.sav','rb'))
+model = pickle.load(open('model.sav','rb'))
 
 st.title("Spam Mail Classifier ")
 

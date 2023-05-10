@@ -19,7 +19,7 @@ if st.button('Predict'):
         st.warning("Please enter text")
     else:
         result = model.predict(input_msg)
-        if result[0] == 'spam' or 'spam' in input_msg:
+        if result[0] ==0 or 'spam' in input_msg:
             st.success("This is a Spam message :loudspeaker:")
             db.insert_data(t,"Spam message")
         else:

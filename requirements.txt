@@ -1,5 +1,5 @@
-numpy==1.21.4
-streamlit==1.0.0
+numpy
+streamlit
 Deta
 scikit-learn
 pandas
